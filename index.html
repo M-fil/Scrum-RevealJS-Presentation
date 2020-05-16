@@ -1,0 +1,548 @@
+<!doctype html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+
+		<title>Scrum</title>
+
+		<link rel="stylesheet" href="css/reset.css">
+		<link rel="stylesheet" href="css/reveal.css">
+		<link rel="stylesheet" href="css/theme/black.css">
+		<link rel="stylesheet" href="css/custom/style.css">
+		<link rel="stylesheet" href="lib/css/monokai.css">
+
+		<!-- Theme used for syntax highlighting of code -->
+		<link rel="stylesheet" href="lib/css/beige.css">
+
+		<link href="https://fonts.googleapis.com/css2?family=Comic+Neue:wght@300;400;700&display=swap" rel="stylesheet">
+
+		<!-- Printing and PDF exports -->
+		<script>
+			var link = document.createElement( 'link' );
+			link.rel = 'stylesheet';
+			link.type = 'text/css';
+			link.href = window.location.search.match( /print-pdf/gi ) ? 'css/print/pdf.css' : 'css/print/paper.css';
+			document.getElementsByTagName( 'head' )[0].appendChild( link );
+		</script>
+	</head>
+	<body>
+		<div class="reveal">
+			<div class="slides">
+				<section 
+					data-background-image="https://intasker.com/inc/images/static/scrum/section-1-image.png"
+					data-background-size="90% 60%"
+					data-background-position="50% 30%"
+					data-background-color="#E778AD"
+				>
+					<aside class="notes">
+						Today we will talk with you about Scrum. 
+						What is Scrum?
+						If you somehow connected with programming you probably heard this word. 
+						Let’s start with the definition of Scrum. 
+						There are a lot of books and articles which can tell us about it. 
+						Often in such media people call Scrum as a method, an approach or methodology. 
+					</aside>
+				</section>
+
+				<section data-background-color="#5BC9CA">
+					<span style="color: white; font-weight: 900;">Jeff Sutherland <br> "<span class="highlight-text">Scrum: A revolutionary approach</span> to building teams, beating deadlines and boosting productivity"</span>
+					<img class="scrum-book" src="https://j.livelib.ru/boocover/1001864690/o/aeb8/Dr_Jeff_Sutherland__Scrum_A_Revolutionary_Approach_to_Building_Teams_Beating_Dea.jpeg" alt="book">
+					<aside class="notes">
+						Even in the book, which you can see on the slide, 
+						I found that the author writes 
+						“Scrum is a revolutionary approach to project management”.
+					</aside>
+				</section>
+
+				<section data-background-color="#CEEAED">
+					<h1>Scrum is a...</h1>
+					<div>
+						<p class="fragment" data-fragment-index="2">Revolutionary</p>
+						<p class="fragment" data-fragment-index="1">Approach</p>
+						<p class="fragment" data-fragment-index="3">to Project Managment</p>
+					</div>
+					<aside class="notes">
+						What can we understand from this sentence?
+						<ul>
+							<li>At first, Scrum is an approach.</li>
+							<li>Second, it is a revolutionary approach.</li>
+							<li>The third, Scrum is about project management.</li>
+						</ul>
+					</aside>
+				</section>
+
+				<section data-background-image="./images/amazed.jpg">
+					<div style="color: white; font-size: 7rem; font-weight: 900;">It is a lie!</div>
+					<h1 style="height: 40vh;"></h1>
+					<aside class="notes">
+						At last, it is all a lie. 
+						Yes, you didn’t overhear. 
+						It is a lie. 
+						I’ll say you more each word in this sentence is a lie. 
+					</aside>
+				</section>
+
+				<section data-background-color="#CEEAED">
+					<h1>Scrum is a...</h1>
+					<div>
+						<p class="fragment strike" data-fragment-index="2">Revolutionary</p>
+						<p class="fragment strike" data-fragment-index="1">Approach</p>
+						<p class="fragment strike" data-fragment-index="3">to Project Managment</p>
+					</div>
+					<aside class="notes">
+						<ul>
+							<li>Scrum isn’t an approach,</li>
+							<li>it isn’t revolutionary</li>
+							<li>and it isn’t about project management.</li>
+						</ul>
+					</aside>
+				</section>
+
+				<section data-center="false" data-background-image="https://toocooltrafficschool.com/wp-content/uploads/2019/02/what-is-tlsae740.png">
+					<h1 style="color: red; font-weight: bold; font-size: 8rem; font-weight: 900;">What is it?</h1>
+					<h1 style="height: 300px;"></h1>
+					<h1 style="height: 300px;"></h1>
+					<aside class="notes">
+						The first question you probably have: 
+						“If Scrum is not an approach, method or even methodology, so what is it?” 
+					</aside>
+				</section>
+
+				<section data-background-color="#5BC9CA">
+					<div style="font-size: 3rem; color: whitesmoke; font-weight: 900; font-size: 4.5rem;">
+						Scrum is a <span class="fragment" style="text-decoration: underline; font-size: 6rem;">FRAMEWORK</span>
+					</div>
+					<aside class="notes">Scrum is a framework. </aside>
+				</section>
+
+				<section data-background-color="#84A7D5">
+					<span class="fragment" data-fragment-index="3">
+						<h1 style="color: white; font-weight: bold; font-size: 8rem;">Scrum</h1>
+					</span>
+					<span class="fragment" data-fragment-index="1">
+						<img class="angular" src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/cf/Angular_full_color_logo.svg/1200px-Angular_full_color_logo.svg.png" alt="angular">
+					</span>
+					<span class="fragment" data-fragment-index="2">
+						<img class="vue" src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/95/Vue.js_Logo_2.svg/1200px-Vue.js_Logo_2.svg.png" alt="vue">
+					</span>
+					<aside class="notes">
+						What? Framework? 
+						I understand that the word framework developers usually associate with Angular or View. 
+						Scrum also fits in this group. 
+					</aside>
+				</section>
+
+				<section 
+					data-background-image="https://www.scrumalliance.org/ScrumRedesignDEVSite/media/ScrumAllianceMedia/Scrum-Guide_cover2.png"
+					data-background-size="contain"
+					data-background-color="#CEEAED"
+				>
+					<aside class="notes">
+						There is Scrum Guide, which is the most truth guide about Scrum.
+					</aside>
+				</section>
+
+				<section data-background-color="#4744A6">
+					<h1 style="color: white;">Ken Schwaber</h1>
+					<img src="https://3.bp.blogspot.com/-Zs6rNVjo6s4/UEbxIwnH0pI/AAAAAAAAJiY/TcXugOFEKFA/s1600/ken-schwaber-scrum.jpg" alt="">
+					<aside class="notes">
+						Ken Schwaber - the author of Scrum Guide.
+					</aside>
+				</section>
+				
+				<section data-background-color="#4744A6">
+					<h1 style="color: white;">Jeff Sutherland</h1>
+					<img style="height: 500px; width: 400px;" src="https://evolvingagile.files.wordpress.com/2015/10/jeffsutherland.jpg" alt="">
+					<aside class="notes">
+						Jeff Sutherland - one more author of Scrum Guide.
+					</aside>
+				</section>
+
+				<section
+					data-background-color="#84A7D5"
+				>
+					<h3 style="color: white; letter-spacing: 10px;">Scrum</h3>
+					<h1 class="fragment" style="color: white; text-decoration: underline;">Framework</h1>	
+					<aside class="notes">
+						<p>In this Guide, it is said that Scrum is a FRAMEWORK for developing, delivering, and sustaining complex products.</p>
+						To fully understand the meaning let’s discuss the definition of the word “framework”. 
+						A framework is a set of basic elements and rules on which the development process is built. 
+						<p>It means that Scrum as a framework provides a foundation on which developers build programs.</p>
+					</aside>
+				</section>
+
+				<section data-background-color="#3AA1CE">
+					<h1 style="color: white;">Scrum</h1>
+					<div style="height: 5vh;"></div>
+					<div style="display: flex; width: 100%; justify-content: space-between;">
+						<div class="fragment scrum-item">Transparency</div>
+						<div class="fragment scrum-item">Inspection</div>
+						<div class="fragment scrum-item">Adaptation</div>
+					</div>
+					<div style="height: 20vh;"></div>
+					<aside class="notes">
+						<p>Scrum is founded on empiricism.</p>
+						Empiricism asserts that knowledge comes from experience and making decisions. 
+						<p>
+							There are 3 crucial elements of Scrum and every empirical process. There are
+							<ul>
+								<li>transparency,</li>
+								<li>inspection,</li>
+								<li>and adaptation.</li>
+							</ul>
+						</p>
+					</aside>
+				</section>
+
+				<section data-background-color="#2B87D3" data-background-image="https://media.sproutsocial.com/uploads/2018/09/Transparency.svg">
+					<h1 class="fragment scrum-item_single">Transparency</h1>
+					<aside class="notes">
+						Transparency is in charge of that all main characteristics of the process must be visible for the Scrum team. 
+						For example, transparency requires that all participants of Scrum should know what the result of the project will be.
+					</aside>
+				</section>
+				
+				<section data-background-color="#2B87D3" data-background-image="https://pmtips.net/Portals/0/EasyDNNnews/1927/img-how-to-nail-the-project-kickoff-meeting.jpg">
+					<h1 class="fragment scrum-item_single">Inspection</h1>
+					<aside class="notes">
+						The second crucial aspect of Scrum is Inspection. This word speaks for itself. 
+						Scrum users should inspect what goes well and what goes wrong.
+					</aside>
+				</section>
+
+				<section data-background-color="#2B87D3" data-background-image="https://static.tildacdn.com/tild3963-6263-4339-a338-646433623039/5df5811724d39760a044.jpg">
+					<h1 class="fragment scrum-item_single">Adaptation</h1>
+					<aside class="notes">
+						The last aspect of Scrum is Adaptation and it appears after Inspection. 
+						It means that the Scrum team firstly needs to inspect its progress 
+						and then if something goes wrong it should make changes and solve problems.
+					</aside>
+				</section>
+
+				<section data-background-color="#4BBEF8">
+					<h3 style="color: white; text-decoration: underline; margin-bottom: 50px;">Crucial Elements of Scrum</h3>
+					<ul style="color: white;">
+						<li class="fragment" style="margin-bottom: 20px;">Transparency</li>
+						<li class="fragment" style="margin-bottom: 20px;">Inspection</li>
+						<li class="fragment" style="margin-bottom: 20px;">Adaptation</li>
+					</ul>
+					<div style="height: 100vh;"></div>
+					<aside class="notes">
+						Let’s summarize this part. Scrum relies on Transparency, Inspection, and Adaptation. 
+					</aside>
+				</section>
+
+				<section data-background-image="https://static1.squarespace.com/static/5637c084e4b01270cf2c5515/563d180ee4b0c12808d5513b/5be4aed2352f5309afa06af7/1541713790634/SalesTeam1.png?format=1500w">
+					<h1 class="fragment scrum-item_single">Super Team?</h1>
+					<aside class="notes">
+						But who are the heroes, who are this super team that adheres to these 3 principles? 
+						Let’s introduce them.
+					</aside>
+				</section>
+
+				<section 
+					data-background-image="https://mk0appinventiv4394ey.kinstacdn.com/wp-content/uploads/sites/1/2020/02/Product-Management-Concepts-1.png"
+					data-background-size="contain"
+					data-background-color="#9EAEFF"
+				>
+					<h2 class="fragment" style="text-decoration: underline; color: white; background-color: rgba(158, 174, 255, 0.8); font-weight: 900;" data-fragment-index="1">
+						The Product Owner
+					</h2>
+					<ul>
+						<li class="fragment teamate-purpose" style="color: white !important; background-color: rgba(158, 174, 255, 0.8);">Manage the Product Backlog</li>
+					</ul>
+					<h3 style="height: 100vh;"></h3>
+					<aside class="notes">
+						The first personage of this amazing framework is a Product Owner.
+						<p>
+							You may think that he is a person who owns a product that is a customer. It makes sense. But it isn’t exactly so.
+						</p>
+						<p>
+							The Product Owner is the single person in the Scrum team who can manage the Product tasks or Product Backlog. No one else on the team can change tasks on their own.
+						</p>
+					</aside>
+				</section>
+
+				<section 
+					data-background-image="https://img2.freepng.ru/20180326/luw/kisspng-round-table-meeting-clip-art-plan-5ab97a59148fe8.8005663415221049210842.jpg"
+					data-background-color="#FDF8B6"
+					data-background-size="contain"
+				>
+					<h2 class="fragment" style="text-decoration: underline; color: #4E545A; background-color: rgba(253, 248, 182, 0.8); font-weight: 900;" data-fragment-index="1">The Development Team</h2>
+					<ul>
+						<li class="fragment teamate-purpose" style="background-color: rgba(253, 248, 182, 0.8); margin-bottom: 20px;" data-fragment-index="2">
+							Develops a product
+						</li>
+						<li class="fragment teamate-purpose" style="background-color: rgba(253, 248, 182, 0.8);" data-fragment-index="3">
+							Optimal size: <span style="color: red;">3 - 9 people</span>
+						</li>
+					</ul>
+					<div style="height: 100vh;"></div>
+					<aside class="notes">
+						The next hero of the Scrum team is people who design a product. 
+						People who want to become, from my point of view, 99% of Rolling Scopes students.
+						<p>
+							It is a Development Team, programmers who design the project. 
+						</p>
+						<p>
+							The optimal size of the Development Team varies from 3 to 9 people. 
+							It has been proven that with this number of members maximum efficiency is achieved.
+						</p>
+					</aside>
+				</section>
+
+				<section
+					data-background-image="./images/scrum-master.png"
+					data-background-color="#00A9E3"
+					data-background-size="contain"
+				>
+					<h2 class="fragment" style="text-decoration: underline; color: white; font-weight: 900;" data-fragment-index="1">Scrum Master</h2>
+					<ul>
+						<li class="fragment teamate-purpose teamate-purpose_light" style="font-size: 3rem;" data-fragment-index="2">
+							Promote and support Scrum as defined in the Scrum Guide
+						</li>
+					</ul>
+					<div style="height: 100vh;"></div>
+					<aside class="notes">
+						<p>
+							The last person in the Scrum team, the person who knows Scrum as the back of his hand, the guru of this framework, is a Scrum Master.
+						</p>
+						<p>
+							His work is to promote and support Scrum as it is written in the Scrum Guide. 
+							He tries to help everyone to change interactions to maximize the value created by the Scrum Team. 
+						</p>
+					</aside>
+				</section>
+
+				<section data-background-color="#4BBEF8">
+					<h1 style="color: white; text-decoration: underline; margin-bottom: 40px;">Scrum Team</h1>
+					<ul style="color: white;">
+						<li class="fragment" style="margin-bottom: 10px">The Product Owner</li>
+						<li class="fragment" style="margin-bottom: 10px">The Development Team</li>
+						<li class="fragment" style="margin-bottom: 10px">The Scrum Master</li>
+					</ul>
+					<div style="height: 100vh;"></div>
+					<aside class="notes">
+						<p>Let’s calculate the parts of a Scrum Team together. 
+							There is a Product Owner, the Development Team, and Scrum Master.
+						</p>
+						<p>
+							But this little number of members in the Scrum Team allows participants to communicate more and discuss problems more detailed. 
+						</p>
+					</aside>
+				</section>
+
+				<section data-background-color="#21D4CE">
+					<h1>Scrum Events</h1>
+					<aside class="notes">
+						According to the Scrum Guide, 
+						there are 4 events that were created to inspect progress and make changes in the shortest possible time.
+					</aside>
+				</section>
+
+				<section data-background-color="#21D4CE">
+					<h1 style="letter-spacing: 10px;">The Sprint</h1>
+					<h2 class="fragment" style="text-decoration: underline;">1 - 4 weeks</h2>
+					<aside class="notes">
+						<p>
+							All events held during the Sprint. 
+							Sprint is one more crucial term in the Scrum. 
+							It is often called the heart of Scrum.
+						</p>
+						<p>
+							It usually ranges from 1 to 4 weeks 
+							and in this period the Scrum Team creates the most useable and potentially releasable product Increment. 
+						</p>
+						<p>
+							It also should be mentioned that there are no holidays or any weekends after the end of the Sprint. 
+							A new Sprint starts immediately after the conclusion of the previous Sprint.
+						</p>
+					</aside>
+				</section>
+
+				<section
+					data-background-image="./images/do-it-tomorrow.png"
+					data-background-size="100% 100%"
+				>
+					<aside class="notes">
+						Okay, we understand the meaning of the Sprint but what we need to do before starting it? 
+						What are we doing before starting any important task? 
+						<p>
+							Usually, we promise ourselves that we will do it tomorrow. 
+						</p>
+					</aside>
+				</section>
+
+				<section
+					data-background-image="https://hannahva.com/wp-content/uploads/2020/03/Planning.png"
+					data-background-size="contain"
+					data-background-color="#4BBEF8"
+				>
+					<h1 
+						class="fragment" 
+						style="color: white; background-color: rgba(75, 190, 248, 0.8); border: 6px solid white;"
+					>
+						Sprint Planning
+					</h1>
+					<aside class="notes">
+						But as the perfect variant, we should plan our work. The Sprint also starts with the planning. 
+						In the world of Scrum, it calls Sprint Planning.
+						<p>
+							In this event, the team discusses the crucial question: «What can we do in this Sprint to release the product?» 
+							During the Sprint Planning, the Scrum Team also crafts a Sprint Goal. 
+							Also on this event, the team selects items for the Sprint from the Product Backlog.
+						</p>
+					</aside>
+				</section>
+
+				<section 
+					data-background-image="https://miro.com/blog/wp-content/uploads/2018/01/rtb-blog-how-scrum-masters.svg"
+					data-background-size="100% 100%"
+					data-background-color="white"
+				>
+					<h2 class="fragment scrum-item_single" style="word-spacing: 10px;">Daily Scrum</h2>
+					<div class="fragment" style="color: #131313; background-color: rgba(255, 255, 255, 0.8);">
+						<span style="color: red;">no more</span> than <span style="color: red; font-size: 6rem; font-weight: bold;">15</span> minutes!
+					</div>
+					<div style="height: 100vh;"></div>
+					<aside class="notes">
+						<p>
+							Okay, we planned the Sprint. 
+							It is cool. But I also said that Scrum allows the team to communicate more. 
+							There is a special event for this purpose called Daily Scrum. 
+						</p>
+						<p>
+							But communicate more it was said very loudly. 
+							Actually, Daily Scrum is strictly held for no more than 15 minutes. 
+							Scrum Master teaches the Development Team to keep the Daily Scrum within this time-box.
+						</p>
+						<p>
+							At this event, each member of the Development Team tells everyone what he did yesterday and what he will do today. 
+							Thus, Daily Scrum is just a plan for the upcoming day.
+						</p>
+					</aside>
+				</section>
+
+				<section
+					data-background-image="https://images.squarespace-cdn.com/content/v1/56f09b0d7da24f87fc9e0589/1562658193528-0LYIIPY24OI2JS0ZNNIF/ke17ZwdGBToddI8pDm48kGDpvalPb1SqHoCn1hwN0Y57gQa3H78H3Y0txjaiv_0fDoOvxcdMmMKkDsyUqMSsMWxHk725yiiHCCLfrh8O1z5QHyNOqBUUEtDDsRWrJLTmQPoRzxSr1hzN-vPBHt7YyLLXgctAyUJRqJUUGWVDK_ZzIgvsybGcZEPqUYiXY8im/sprint+review+to+do+list?format=750w"
+					data-background-size="contain"
+					data-background-color="#fff"
+				>
+					<h2 class="fragment scrum-item_single" style="word-spacing: 10px;">Sprint Review</h2>
+					<aside class="notes">
+						The next Scrum event is a Sprint Review.
+						<p>
+							It relies on the Scrum concepts of Inspection and Adaptation. 
+							This event usually takes less than 4 hours and holds at the end of the Sprint. 
+							The main purpose of it is to inspect the Increment and adapt the Product Backlog if needed.
+						</p>
+					</aside>
+				</section>
+
+				<section
+					data-background-image="https://blog.vantagecircle.com/content/images/2019/04/objectives-of-performance-management.png"
+					data-background-size="contain"
+					data-background-color="#EBE4FA"
+				>
+					<h2 class="fragment scrum-item_single" style="word-spacing: 10px;">Sprint Retrospective</h2>
+					<aside class="notes">
+						The last event which was created to fix Scrum Team fuckups is a Sprint Retrospective. 
+						<p>
+							It always holds after the Sprint Review and it is an opportunity for the Scrum Team to inspect itself and create a plan for improvements. 
+							It takes always less than 3 hours. 
+							By the end of the Sprint Retrospective, the Scrum Team should identify improvements that it will implement in the next Sprint.
+						</p>
+					</aside>
+				</section>
+
+				<section data-background-color="#4BBEF8">
+					<h1 style="color: white; text-decoration: underline;">Sprint Events</h1>
+					<ul style="color: white;">
+						<li class="fragment">Sprint Planning</li>
+						<li class="fragment">Daily Scrum</li>
+						<li class="fragment">Sprint Review</li>
+						<li class="fragment">Sprint Retrospective</li>
+					</ul>
+					<div style="height: 100vh;"></div>
+					<aside class="notes">
+						Let’s view all the events process held during the Sprint. 
+						<ul>
+							<li>We always start with Sprint Planning where we select tasks from the product backlog for the Sprint.</li>
+							<li>Then we have Daily Scrum which is conducted every day and takes no more than 15 minutes.</li>
+							<li>At the end of the Sprint we inspect and adapt our work process. Sprint Review helps us in it.</li>
+							<li>Finally, we have  Sprint Retrospective where the team identifies improvements which it can apply in the next Sprint.</li>
+						</ul>
+					</aside>
+				</section>
+
+				<section
+					data-background-image="https://ucarecdn.com/3be530bf-a7c2-4f4e-a7f7-6130d7d7fff4/"
+					data-background-color="#F6F6F6"
+					data-background-size="contain"
+				>
+					<h2 class="fragment scrum-item_single" style="word-spacing: 10px;">The Sprint Repeats</h2>
+					<aside class="notes">
+						<p>This loop repeats every Sprint.</p>
+					</aside>
+				</section>
+
+				<section
+					data-background-color="#CEEAEE"
+				>
+					<h1 style="color: #2D5696; margin-bottom: 40px; text-decoration: underline;">Scrum</h1>
+					<ul style="color: white;">
+						<li class="fragment description-item">
+							✔️ the most applicable
+						</li>
+						<li class="fragment description-item">
+							✔️ effective
+						</li>
+						<li class="fragment description-item">
+							✔️ popular
+						</li>
+					</ul>
+					<div style="height: 100vh;"></div>
+					<aside class="notes">
+						Now it is time to make some conclusions. 
+						Scrum is the most applicable and effective framework in the programming sphere. 
+						It proved its efficiency in real life and therefore it is so popular.
+					</aside>
+				</section>
+
+				<section 
+					data-background-image="https://www.scrumalliance.org/ScrumRedesignDEVSite/media/ScrumAllianceMedia/Scrum-Guide_cover2.png"
+					data-background-size="contain"
+					data-background-color="#CEEAED"
+				>
+					<div 
+						class="fragment scrum-item_single"
+						style="font-size: 3rem;"
+					>
+						link in the description <p class="arrow">▼</p>
+					</div>
+					<aside class="notes">
+						It was covered not all information but if you want to learn more about Scrum I highly recommend opening the description. 
+						<p>
+							There is a link on Scrum Guide that is the most truthful source of information about Scrum.
+						</p>
+					</aside>
+				</section>
+			</div>
+		</div>
+
+		<script src="js/reveal.js"></script>
+
+		<script>
+			Reveal.initialize({
+				hash: true,
+				showNotes: false,
+				dependencies: [
+					{ src: 'socket.io/socket.io.js', async: true },
+					{ src: 'plugin/highlight/highlight.js' },
+					{ src: 'plugin/notes/notes.js', async: true }
+				]
+			});
+		</script>
+	</body>
+</html>
